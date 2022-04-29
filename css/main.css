@@ -1,0 +1,312 @@
+/* Sidebar */
+.sidebar {
+    padding: 50px 15px 60px 55px;
+    width: 252px;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    /* background-color: rgb(219, 219, 219); */
+}
+
+.sidebar-logo {
+    margin-bottom: 57px;
+}
+
+.sidebar-help {
+    margin-top: auto;
+}
+
+/* Nav */
+
+.nav {
+
+}
+
+.nav-title {
+    margin-bottom: 44px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.nav-list {
+    font-size: 15.71px;
+}
+
+.nav-list li {
+    margin-bottom: 27px;
+}
+
+.nav-list a {
+    transition: color 0.2s ease-in;
+}
+
+.nav-list a:hover {
+    color: #FD2E24;
+}
+
+.nav-list img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+
+    width: 26px;
+    height: auto;
+    object-fit: none;
+}
+
+/* Help */
+
+.help {
+    font-size: 15.7px;
+}
+
+.help-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+/* main */
+
+.main {
+    padding-top: 45px;
+    width: 1100px;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-bottom: 70px;
+}
+
+/* Search */
+
+.search {
+    width: 490px;
+    height: 44px;
+}
+
+.search-label {
+    height: 100%;
+    display: flex;
+}
+
+.search-icon {
+    margin-right: 7px;
+}
+
+.search-input {
+    padding: 0 10px;
+    flex-grow: 1;
+    background: none;
+    border-radius: 15px;
+
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Circular Std';
+}
+
+.search-input:focus, .search-input:active {
+    background-color: #fff;
+}
+
+.search-input::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/* Nav header */
+
+.nav-header {
+    font-size: 17px;
+    font-family: 'Circular Std';
+    font-weight: 500;
+}
+
+.nav-header-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-header-link-text {
+    position: relative;
+}
+
+.nav-header-link-text::after {
+    position: absolute;
+    left: 0;
+    width: 0%;
+    bottom: -9px;
+
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+
+    transition: width 0.2s ease-in;
+}
+
+.nav-header-link-text:hover::after {
+    width: 100%;
+}
+
+.nav-header-link-text.active::after {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: -9px;
+
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: black;
+}
+
+.nav-header-link-text + .nav-header-link-text {
+    margin-left: 42px;
+}
+
+.nav-header-link-text + .nav-header-link-icon {
+    margin-left: 50px;
+}
+
+.nav-header-link-icon + .nav-header-link-icon {
+    margin-left: 25px;
+}
+
+/* Cards wrapper */
+
+.cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.cards-wrapper-row {
+    display: flex;
+    column-gap: 20px;
+}
+
+.cards-wrapper-col {
+
+}
+
+.col-horizontal {
+    display: flex;
+    column-gap: 20px;
+}
+
+.col-vertical {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+/* Cards */
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px #4395939a;
+}
+
+.card-horizontal {
+    width: 539px;
+    height: 180px;
+}
+
+.card-sale {
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card-vertical{
+    width: 259px;
+    height: 380px;
+}
+
+.card-product{
+    position: relative;
+}
+
+.card-product-link {
+    width: 100%;
+    height: 100%;
+}
+
+.card-product-fav-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.card-product-fav-btn svg {
+    display: inline-block;
+    vertical-align: middle;
+
+    stroke: black;
+    fill: #fff;
+
+    transition: all 0.2s ease-in;
+}
+
+.card-product-fav-btn:hover svg {
+    stroke: #FD2E24;
+    fill: #FD2E24;
+}
+
+
+.card-product-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-section {
+    padding-left: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-section-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.card-section-desc {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.card-section-red .card-section-title{
+    color: #FD2E24;
+}

@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Sofia';
+    src: url('Sofia-Bold.eot');
+    src: local('Sofia Bold'), local('Sofia-Bold'),
+        url('Sofia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Sofia-Bold.woff') format('woff'),
+        url('Sofia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'Sofia';
+    src: url('Sofia.eot');
+    src: local('Sofia'),
+        url('Sofia.eot?#iefix') format('embedded-opentype'),
+        url('Sofia.woff') format('woff'),
+        url('Sofia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+/* @font-face {
+    font-family: 'Sofia';
+    src: url('Sofia-ExtraLight.eot');
+    src: local('Sofia ExtraLight'), local('Sofia-ExtraLight'),
+        url('Sofia-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Sofia-ExtraLight.woff') format('woff'),
+        url('Sofia-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+} */
+
+/* @font-face {
+    font-family: 'Sofia';
+    src: url('Sofia-Thin.eot');
+    src: local('Sofia Thin'), local('Sofia-Thin'),
+        url('Sofia-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Sofia-Thin.woff') format('woff'),
+        url('Sofia-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+} */
+
+/* @font-face {
+    font-family: 'Sofia';
+    src: url('Sofia-Light.eot');
+    src: local('Sofia Light'), local('Sofia-Light'),
+        url('Sofia-Light.eot?#iefix') format('embedded-opentype'),
+        url('Sofia-Light.woff') format('woff'),
+        url('Sofia-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Sofia';
+    src: url('Sofia-Medium.eot');
+    src: local('Sofia Medium'), local('Sofia-Medium'),
+        url('Sofia-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Sofia-Medium.woff') format('woff'),
+        url('Sofia-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
